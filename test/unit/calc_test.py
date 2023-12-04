@@ -19,7 +19,7 @@ class TestCalculate(unittest.TestCase):
         self.assertEqual(0, self.calc.add(2, -2))
         self.assertEqual(0, self.calc.add(-2, 2))
         self.assertEqual(1, self.calc.add(1, 0))
-        self.assertEqual(2, self.calc.add(2, 2))
+        self.assertEqual(2, self.calc.add(1, 1))
         self.assertEqual(10, self.calc.add(5, 5))
 
 
